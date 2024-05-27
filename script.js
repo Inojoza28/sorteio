@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Redirecionar para o vídeo no YouTube após 2 segundos
             setTimeout(() => {
                 window.location.href = 'https://www.youtube.com/watch?v=chwyjJbcs1Y';
-            }, 2200); // 2000 milissegundos = 2 segundos
+            }, 2300); // 2000 milissegundos = 2 segundos
         }, 3000); // 3000 milissegundos = 3 segundos
     });
 });
