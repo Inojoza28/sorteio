@@ -35,10 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             drawButton.style.margin = '0 auto'; // Centralizar o botão
 
-            // Redirecionar para o vídeo no YouTube após 2 segundos
+            // Redirecionar para o vídeo no YouTube após 2.3 segundos
             setTimeout(() => {
                 window.location.href = 'https://www.youtube.com/watch?v=chwyjJbcs1Y';
-            }, 2300); // 2000 milissegundos = 2 segundos
+            }, 2300); // 2300 milissegundos = 2 segundos
         }, 3000); // 3000 milissegundos = 3 segundos
     });
 });

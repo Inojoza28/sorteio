@@ -23,10 +23,20 @@ body {
 }
 
 h1 {
-    margin-bottom: 30px;
+    margin-bottom: 10px; /* Reduzir a margem inferior para aproximar do subtítulo */
     font-size: 2em;
     color: #333333;
 }
+
+/* Estilos para o subtítulo */
+h2 {
+    font-size: 16px; /* Tamanho menor */
+    color: #666; /* Cor cinza */
+    margin-top: 5px; /* Ajuste a margem superior para aproximar do título principal */
+    margin-bottom: 20px; /* Ajuste a margem inferior para criar espaço entre o subtítulo e o botão */
+    text-align: center; /* Centralizar o texto */
+}
+
 
 button {
     background: linear-gradient(to right, #007bff, #0056b3);
@@ -38,6 +48,7 @@ button {
     font-size: 1em;
     transition: background 0.3s ease;
     position: relative;
+    margin-top: 15px;
 }
 
 button:hover {
@@ -145,6 +156,10 @@ p {
         font-size: 1.5em;
     }
 
+    h2{
+        font-size: 14px;
+    }
+
     button {
         padding: 10px 20px;
         font-size: 1.1em;
@@ -163,4 +178,7 @@ p {
     p {
         font-size: 1.2em;
     }
+    
 }
+
+
